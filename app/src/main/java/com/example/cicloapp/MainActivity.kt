@@ -7,7 +7,7 @@ import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
 
-    var nombre = "Xally"
+    var nombre = "Abigail"
     val NOMBRE = "nombre"
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         //Toast.makeText(this,nombre, Toast.LENGTH_SHORT).show()
 
         boton.setOnClickListener{
-            nombre = "Elayne"
+            nombre = "Alessandra"
             Toast.makeText(this,nombre, Toast.LENGTH_SHORT).show()
         }
 
